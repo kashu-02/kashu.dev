@@ -17,4 +17,4 @@ function countdown (){
 }
 
 countdown()
-setInterval(countdown,100)
+setInterval(countdown,1)
