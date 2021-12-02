@@ -24,7 +24,6 @@ function countdown (){
     ss.innerText = secound
     ms.innerText = msecond
     wk.innerText = week
-
 }
 
 countdown()
