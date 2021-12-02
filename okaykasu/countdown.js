@@ -13,7 +13,7 @@ function countdown (){
     const msecond = diff % 1000
     const week = Math.floor(day / 7)
 
-    cd.innerText = `共通テストまで あと${day}日${hour}時間${minutes}分${secound}秒${msecond}（${week}週）`
+    cd.innerText = `共通テストまで あと${week}週${day}日${hour}時間${minutes}分${secound}秒${msecond}`
 }
 
 countdown()
